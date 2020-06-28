@@ -1,0 +1,44 @@
+{% set name = "animapp" %}
+{% set version = "0.1.5.4" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  sha256: d03553e643f653d38e46607a2615fee31c6820729dde0bf8c579ce73105c663a
+
+build:
+  number: 0
+  entry_points:
+    - threshold=animapp.set_thresholds:main
+    - animapp=animapp.animapp:main
+  script: "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  host:
+    - pip
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    - animapp
+  commands:
+    - threshold --help
+    - animapp --help
+
+about:
+  home: "https://github.com/sraorao/animapp_conda"
+  license: MIT
+  license_family: MIT
+  license_file: 
+  summary: "A package to track the movement of an object (a small animal) in a video"
+  doc_url: 
+  dev_url: 
+
+extra:
+  recipe-maintainers:
+    - your-github-id-here

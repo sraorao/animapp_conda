@@ -1,0 +1,9 @@
+Install Miniconda3
+
+conda config --add channels conda-forge
+conda create -n animapp
+conda activate animapp
+conda install -c sraorao animapp
+
+threshold -h
+animapp -h

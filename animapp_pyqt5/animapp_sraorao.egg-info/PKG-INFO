@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: animapp-sraorao
+Version: 0.1.5
+Summary: A package to track the movement of an object (a small animal) in a video
+Home-page: https://github.com/sraorao/animapp_pyqt5
+Author: Srinivasa Rao
+Author-email: srinivasarao.rao@gmail.com
+License: UNKNOWN
+Description: A package to track the movement of an object (a small animal) in a video.
+        
+        To install:
+        
+        ```bash
+        conda create -n animapp_env
+        conda activate animapp_env
+        conda install pyqt opencv
+        python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps animapp-sraorao==0.1.3.4
+        ```
+        To run:
+        
+        1. First set thresholds (creates settings.yaml file)
+        ```bash
+        threshold
+        ```
+        
+        2. Run analysis module
+        ```bash
+        animapp
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

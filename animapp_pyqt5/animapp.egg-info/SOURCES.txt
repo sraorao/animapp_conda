@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+animapp/__init__.py
+animapp/_version.py
+animapp/animapp.py
+animapp/process_csv.py
+animapp/qrangeslider.py
+animapp/set_thresholds.py
+animapp.egg-info/PKG-INFO
+animapp.egg-info/SOURCES.txt
+animapp.egg-info/dependency_links.txt
+animapp.egg-info/entry_points.txt
+animapp.egg-info/top_level.txt
+animapp/data_files/example_vid.mp4
+animapp/data_files/settings.yaml

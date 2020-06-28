@@ -1,0 +1,4 @@
+[console_scripts]
+animapp = animapp.animapp:main
+threshold = animapp.set_thresholds:main
+

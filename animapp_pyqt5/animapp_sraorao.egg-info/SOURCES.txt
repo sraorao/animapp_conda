@@ -1,0 +1,14 @@
+README.md
+setup.py
+animapp/__init__.py
+animapp/animapp.py
+animapp/process_csv.py
+animapp/qrangeslider.py
+animapp/set_thresholds.py
+animapp_sraorao.egg-info/PKG-INFO
+animapp_sraorao.egg-info/SOURCES.txt
+animapp_sraorao.egg-info/dependency_links.txt
+animapp_sraorao.egg-info/entry_points.txt
+animapp_sraorao.egg-info/top_level.txt
+bin/animapp
+bin/threshold
