@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sraorao/animapp_conda.svg?branch=master)](https://travis-ci.org/sraorao/animapp_conda)
+
 A package to track the movement of an object (a small animal) in a video.
 
 See https://animapp.readthedocs.io/en/latest/ for detailed documentation.
