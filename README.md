@@ -8,10 +8,10 @@ See https://animapp.readthedocs.io/en/latest/ for detailed documentation.
 To install:
 
 ```bash
+conda config --add channels conda-forge
 conda create -n animapp_env
 conda activate animapp_env
-conda install pyqt opencv
-pip install animapp
+conda install -c sraorao animapp
 ```
 To run:
 
